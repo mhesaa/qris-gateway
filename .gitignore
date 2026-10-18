@@ -1,0 +1,30 @@
+# Rahasia -- JANGAN pernah masuk repo
+.env
+*.env
+!.env.example
+
+# Database
+*.db
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Log
+*.log
+logs/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
