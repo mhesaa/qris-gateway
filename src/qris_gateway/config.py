@@ -71,7 +71,7 @@ class Settings:
     embed_reference: bool = True
 
     # --- database ----------------------------------------------------------
-    database: str = "qris.db"
+    database: str = os.getenv("DB_PATH", "qris.db")
 
     # --- server ------------------------------------------------------------
     host: str = "127.0.0.1"
