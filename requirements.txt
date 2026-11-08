@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+pydantic-settings
+qrcode
+pillow
+httpx
